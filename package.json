@@ -1,5 +1,5 @@
 {
-  "name": "react-native-tag-input",
+  "name": "@cutii/react-native-tag-input",
   "description": "A tag input component for react-native",
   "version": "0.0.16",
   "author": "Jack Wohlfert (https://github.com/jwohlfert23)",
