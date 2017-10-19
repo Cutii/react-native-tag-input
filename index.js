@@ -472,11 +472,12 @@ const styles = StyleSheet.create({
     height: 36,
     fontSize: 16,
     flex: .6,
-    marginBottom: 6,
     padding: 0,
   },
   textInputContainer: {
     height: 36,
+    flexDirection: 'column',
+    justifyContent : 'center'
   },
   tag: {
     justifyContent: 'center',
