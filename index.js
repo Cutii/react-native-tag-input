@@ -295,7 +295,6 @@ class TagInput<T> extends React.PureComponent<Props<T>, State> {
               {tags}
               <View style={[
                 styles.textInputContainer,
-                { width: this.state.inputWidth },
               ]}>
                 <TextInput
                   ref={this.tagInputRef}
@@ -303,7 +302,6 @@ class TagInput<T> extends React.PureComponent<Props<T>, State> {
                   onKeyPress={this.onKeyPress}
                   value={text}
                   style={[styles.textInput, {
-                    width: this.state.inputWidth,
                     color: inputColor,
                   }]}
                   onBlur={this.onBlur}
