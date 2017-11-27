@@ -119,7 +119,7 @@ class TagInput<T> extends React.PureComponent<Props<T>, State> {
   props: Props<T>;
   state: State = {
     text: '',
-    inputWidth: 90,
+    inputWidth: 120,
     wrapperHeight: 36,
   };
   wrapperWidth = windowWidth;
@@ -143,8 +143,8 @@ class TagInput<T> extends React.PureComponent<Props<T>, State> {
 
   static inputWidth(text: string, spaceLeft: number, wrapperWidth: number) {
     if (text === "") {
-      return 90;
-    } else if (spaceLeft >= 100) {
+      return 120;
+    } else if (spaceLeft >= 130) {
       return spaceLeft - 10;
     } else {
       return wrapperWidth;
